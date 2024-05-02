@@ -9,5 +9,4 @@ root.render(
     <div>
         <App />
     </div>
-
 );

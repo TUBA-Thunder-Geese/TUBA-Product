@@ -1,5 +1,8 @@
 import React from "react";
-import { BrowserRouter as Route, Router, Routes } from "react-router";
+import { Route, Router, Routes } from "react-router";
+import Home from "./components/Home";
+import Download from "./components/ProductDownload";
+import Nav from "./components/Nav";
 
 export default function App() {
 
@@ -7,17 +10,13 @@ export default function App() {
 
   return (
     <>
-      <h1>Tuba stuff goes here</h1>
+      {<Nav/>}
+      <Router>
+        <Routes>
+          <Route path="/" element={< Home />}/>
+          <Route path="/download" element={<Download/>} />
+        </Routes>
+      </Router>
     </>
   )
-  
-  // return (
-  //   <>
-  //     <Router>
-  //       <Routes>
-  //         <Route path="/" element={}/>
-  //       </Routes>
-  //     </Router>
-  //   </>
-  // )
 }
