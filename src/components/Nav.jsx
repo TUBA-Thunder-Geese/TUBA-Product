@@ -8,8 +8,8 @@ export default function Nav() {
     <div className="nav-wrapper">
       <div className="nav">
         <ul>
-          <li>Dashboard</li>
-          <li>Download</li>
+          <li>Product</li>
+          <li>Docs</li>
         </ul>
       </div>    
     </div>
