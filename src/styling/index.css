@@ -4,7 +4,9 @@
 
 body {
     margin: 0px 0px 0px 0px;
-    padding: 5%;
+    padding-top: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -18,3 +20,8 @@ body {
 .custom-space > li:not(:last-child) {
     margin-right: 10%; 
   }
+
+.logo-img {
+    height: 10%;
+    width: 10%;
+}
