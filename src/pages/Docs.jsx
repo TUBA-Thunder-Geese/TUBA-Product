@@ -12,7 +12,6 @@ export default function Docs() {
           <li><Link to="/docs/overview">Overview</Link></li>
           <li><Link to="/docs/installation">Overview</Link></li>
         </ul>
-
       </div>
       <div className="flex-1 p4">
         <Routes>
