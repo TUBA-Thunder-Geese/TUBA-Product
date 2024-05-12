@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    margin: 0px 0px 0px 0px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    color: #e3e3e3;
+    min-height: 100vh;
+}
+
+.nav-wrapper {
+    background: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, #1e2d67 60%);
+}
+
+.nav-content {
+    padding-top: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 2%;
+}
+
+.custom-space > li:not(:last-child) {
+    margin-right: 10%; 
+  }
+
+.logo-img {
+    height: 15%;
+    width: 15%;
+}
+
+.tuba-title {
+    font-family: "Ojuju", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 32px;
+    letter-spacing: 1.5px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.button-style {
+    display: inline-block;
+    border: 1px solid #ffffff;; /* Adjust the color and border width as needed */
+    border-radius: 0.25rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    /* width: 180px; */
+    text-align: center;
+    color: #ffffff;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.button-style:hover {
+    background-color: rgb(91, 143, 185); /* Replace with actual color code */
+}
+
+.top-nav {
+    width: 100px;
+}
+
+.side-nav {
+    width: 180px;
+}
+
+.home-wrapper {
+    background: rgba(2, 0, 36, 1);
+    height: 100vh;
+    width: 100%;
+}
+
+.docs-wrapper {
+    background: #1e2d67;
+    border-top: 20px solid rgba(2, 0, 36, 1);
+    height: 100vh;
+    width: 100%;
+}
+
+.docs-nav {
+    background: #1e2d67;
+    padding-top: 10%;
+}
+
+.docs-container {
+    background: #e3e3e3;
+    color: black;
+    padding: 30px;
+}
+
