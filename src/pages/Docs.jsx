@@ -1,25 +1,27 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { Routes, Route, Link } from "react-router-dom";
 
-import Overview from "../components/Doc-Overview.jsx";
-import Installation from "../components/Doc-Installation.jsx";
+import GetStarted from "../components/Doc-GetStarted.jsx";
+import DockerConfig from "../components/Doc-DockerConfig.jsx";
+import PrometheusConfig from "../components/Doc-PrometheusConfig.jsx";
 
 export default function Docs() {
   return (
-    <Router>
-      <h1>Docs Here</h1>
-      <div className="flex">
-        <ul>
-          <li><Link to="overview">Overview</Link></li>
-          <li><Link to="installation">Overview</Link></li>
+    <div className="docs-wrapper grid grid-cols-[200px_auto]">
+      <div className="docs-nav flex justify-center">
+        <ul className="docs-nav-links ">
+          <li className="mb-3"><Link to="getStarted" className="button-style">Getting Started</Link></li>
+          <li className="mb-3"><Link to="dockerConfig" className="button-style">Docker Config</Link></li>
+          <li className="mb-3"><Link to="promConfig" className="button-style">Prometheus Config</Link></li>
         </ul>
       </div>
-      <div className="flex-1 p4">
+      <div className="docs-container">
         <Routes>
-          <Route path="overview" element={<Overview />} />
-          <Route path="installation" element={<Installation />} />
+          <Route path="getStarted" element={<GetStarted />} />
+          <Route path="dockerConfig" element={<DockerConfig />} />
+          <Route path="promConfig" element={<PrometheusConfig />} />
         </Routes>
       </div>
-    </Router>
+    </div>
   )
 }
