@@ -14,7 +14,7 @@ export default function App() {
         {<Nav/>}
         <Routes>
           <Route path="/" element={< Home />}/>
-          <Route path="/docs" element={<Docs />} />
+          <Route path="/docs/*" element={<Docs />} />
           <Route path="/download" element={<Download/>} />
         </Routes>
       </Router>
