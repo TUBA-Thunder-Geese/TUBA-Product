@@ -21,10 +21,10 @@ export default function Nav() {
         <div className="nav-buttons">
           <ul className="flex justify-end custom-space">
             <li className='mr-3'>
-              <Link to="/download" className="button-style">Product</Link>
+              <Link to="/download" className="button-style top-nav">Product</Link>
             </li>
             <li>
-              <Link to="/docs" className="button-style">Docs</Link>
+              <Link to="/docs" className="button-style top-nav">Docs</Link>
             </li>
           </ul>
         </div>   

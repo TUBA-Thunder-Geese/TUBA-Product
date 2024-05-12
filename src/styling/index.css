@@ -52,12 +52,22 @@ body {
     padding-bottom: 0.25rem;
     padding-left: 0.75rem;
     padding-right: 0.75rem;
+    /* width: 180px; */
+    text-align: center;
     color: #ffffff;
     transition: background-color 0.3s; /* Smooth transition for hover effect */
 }
 
 .button-style:hover {
     background-color: rgb(91, 143, 185); /* Replace with actual color code */
+}
+
+.top-nav {
+    width: 100px;
+}
+
+.side-nav {
+    width: 180px;
 }
 
 .home-wrapper {
