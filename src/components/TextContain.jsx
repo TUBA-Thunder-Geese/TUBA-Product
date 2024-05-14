@@ -1,7 +1,7 @@
 import React from "react";
 
 
-export default function TextContain (text) {
+export default function TextContain ({text}) {
 
   return (
     <section className="text-section">

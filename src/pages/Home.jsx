@@ -9,11 +9,8 @@ export default function Home() {
 
   return (
     <div className="home-wrapper">
-      {TitleContain }
-      {/* <div className="title-section">
-        <h1>TUBA</h1>
-        <p>Error tracing made simple in micro service architecture</p>
-      </div> */}
+      {<TitleContain text={"Welcome to TUBA"}/>}
+      {<TextContain text={"Error tracing made simple in micro service architecture"}/>}
       {<ImgContain src={HeatMapSS} alt={"Heat Map image"} />}
     </div>
   )

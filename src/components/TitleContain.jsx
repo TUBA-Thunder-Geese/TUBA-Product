@@ -1,7 +1,7 @@
 import React from "react";
 
 
-export default function TitleContain (text) {
+export default function TitleContain ({text}) {
 
   return (
     <section className="title-section">
