@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     margin: 0px 0px 0px 0px;
     font-family: "Inter", sans-serif;
@@ -11,6 +18,19 @@ body {
         "slnt" 0;
     color: #e3e3e3;
     min-height: 100vh;
+    min-width: 100vh;
+}
+
+.main-background {
+    background-color: rgba(2, 0, 36, 1);;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav-wrapper {
@@ -22,6 +42,8 @@ body {
     padding-left: 3%;
     padding-right: 3%;
     padding-bottom: 2%;
+    display: grid;
+    grid-template-columns: [left] 50% [center] 50% [right];
 }
 
 .custom-space > li:not(:last-child) {
@@ -29,9 +51,18 @@ body {
   }
 
 .logo-img {
-    height: 15%;
-    width: 15%;
+    height: 60px;
+    width: 60px;
 }
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
 
 .tuba-title {
     font-family: "Ojuju", sans-serif;
@@ -42,6 +73,20 @@ body {
     letter-spacing: 1.5px;
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
+}
+
+.nav-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.button-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .button-style {
@@ -71,10 +116,10 @@ body {
 }
 
 .home-wrapper {
-    background: rgba(2, 0, 36, 1);
-    height: 100vh;
-    width: 100%;
+    background-color: rgba(2, 0, 36, 1);
 }
+
+
 
 .docs-wrapper {
     background: #1e2d67;

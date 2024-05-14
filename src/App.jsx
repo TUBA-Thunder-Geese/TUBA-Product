@@ -12,11 +12,13 @@ export default function App() {
     <>
       <Router>
         {<Nav/>}
+        <div className="main-background">
         <Routes>
           <Route path="/" element={< Home />}/>
           <Route path="/docs/*" element={<Docs />} />
           <Route path="/download" element={<Download/>} />
         </Routes>
+        </div>
       </Router>
     </>
   )
