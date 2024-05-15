@@ -204,6 +204,7 @@ body {
     font-size: 16px;
 }
 
+
 .img-section {
     display: flex;
     flex-direction: row;
@@ -256,6 +257,46 @@ body {
 }
 
 /* Product Section */
+
+.download-wrapper {
+    width: 100%;
+    min-width: 100%;
+}
+
+.download-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: "Ojuju", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 100px;
+    letter-spacing: 1.5px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    /* background-color: pink; */
+}
+
+.options-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-width: 100%;
+    /* padding: 100px; */
+}
+
+.npm-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* background-color: pink; */
+    padding: 30px 30px 30px 30px;
+}
 
 /* Docs Section */
 
