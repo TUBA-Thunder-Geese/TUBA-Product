@@ -161,6 +161,26 @@ body {
     padding: 0px 0px 0px 0px;
 }
 
+.subTitle-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+}
+
+.subTitle-text {
+    font-family: "Ojuju", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+    color:rgb(91, 143, 185);
+    letter-spacing: 1.5px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
 .text-section {
     display: flex;
     flex-direction: row;
