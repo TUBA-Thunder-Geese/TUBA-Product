@@ -11,31 +11,43 @@ export default function DevTeam() {
         <div className="devTeam-img-container">
           <div className="devTeam-img">
             <img src={tubaDev} alt={"Image of Myles Austin"} />
+              <div className="devTeam-text text">
+                <p>Myles Austin</p>
+              </div>
           </div>
           <div className="devTeam-img">
             <img src={tubaDev} alt={"Image of Matt Allen"} />
+            <div className="devTeam-text text">
+              <p>Matt Allen</p>
+            </div>
           </div>
           <div className="devTeam-img">
             <img src={tubaDev} alt={"Image of Emi Knox-Hershey"} />
+            <div className="devTeam-text text">
+              <p>Emi Knox-Hershey</p>
+            </div>
           </div>
           <div className="devTeam-img">
             <img src={tubaDev} alt={"Image of Rick Markowitz"} />
+            <div className="devTeam-text text">
+              <p>Rick Markowitz</p>
+            </div>
           </div>
         </div>
-        <div className="devTeam-text-container">
-          <div className="devTeam-text">
+        {/* <div className="devTeam-text-container">
+          <div className="devTeam-text text">
             <p>Myles Austin</p>
           </div>
-          <div className="devTeam-text">
+          <div className="devTeam-text text">
             <p>Matt Allen</p>
           </div>
-          <div className="devTeam-text">
+          <div className="devTeam-text text">
             <p>Emi Knox-Hershey</p>
           </div>
-          <div className="devTeam-text">
+          <div className="devTeam-text text">
             <p>Rick Markowitz</p>
           </div>
-        </div>
+        </div> */}
       </section>
     )
 }

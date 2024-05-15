@@ -3,7 +3,8 @@ import React from "react";
 import ImgContain from "../components/ImgContain.jsx";
 import TitleContain from "../components/TitleContain.jsx";
 import TextContain from "../components/TextContain.jsx";
-import VideoContain from "../components/VideoContain.jsx";
+import DevTeam from "../components/DevTeam.jsx";
+import Footer from "../components/Footer.jsx";
 
 import dashboardSS from '../images/dashboardSS.png';
 import HeatMapSS from '../images/HeatMapSS.png';
@@ -30,6 +31,8 @@ export default function Home() {
       {<TitleContain text={"Download Pinned Errors to a CSV"}/>}
       {<TextContain text={"All your currently viewed errors compiled to a csv file for easy shareability and record keeping"}/>}
       {<ImgContain src={CSVDemo} alt={"TUBA CSV demo image"} />}
+      {<DevTeam />}
+      {<Footer />}
     </div>
   )
 }
