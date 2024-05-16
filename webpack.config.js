@@ -52,7 +52,7 @@ module.exports = {
         ],
     },
     devServer: {
-        static: './dist',
+        static: './docs',
         hot: true,
         compress: true,
         historyApiFallback: true,
