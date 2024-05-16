@@ -12,8 +12,8 @@ export default function Docs() {
       <div className="docs-nav flex justify-center">
         <ul className="docs-nav-links ">
           <li className="mb-3"><Link to="getStarted" className="button-style side-nav">Getting Started</Link></li>
-          <li className="mb-3"><Link to="dockerConfig" className="button-style side-nav">Docker Config</Link></li>
           <li className="mb-3"><Link to="promConfig" className="button-style side-nav">Prometheus Config</Link></li>
+          <li className="mb-3"><Link to="dockerConfig" className="button-style side-nav">Docker Config</Link></li>
           <li className="mb-3"><Link to="databaseConfig" className="button-style side-nav">Database Instantiation</Link></li>
         </ul>
       </div>

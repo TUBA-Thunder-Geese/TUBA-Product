@@ -380,3 +380,12 @@ body {
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
 }
+
+.doc-content-nav-title {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.prom-hyperlink {
+    color: rgb(91, 143, 185);
+}

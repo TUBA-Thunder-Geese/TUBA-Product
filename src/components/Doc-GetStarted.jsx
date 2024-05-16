@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import DocSubTitleContain from "./Doc-SubTitleContian.jsx";
 import DocTextBlurb from "./Doc-TextBlurb.jsx";
@@ -27,6 +28,10 @@ export default function GetStarted() {
       {<DocTextBlurb text={"You will need to setup/provide your own secure postgres Database. This ensures your data is secure and private. Create an empty database and place the URI in an .env file. You MUST use TUBA_PG_URI as the proprety key. Ex:"} />}
       {/* TUBA_PG_URI='https://postgress.database.link.here.com' */}
       {<DocTextBlurb text={"Tuba now has access to your database. The database schema should still be unconfigured at this point. This can be done via a simple Postman request that will be covered in the Docker Image section of the docs."} />}
+      <section className="doc-content-nav-wrapper">
+        <h3 className="doc-content-nav-title">Continue to Prometheus Configuration</h3>
+       <Link to="/docs/promConfig" className="button-style side-nav doc-content-nav">Prometheus Config</Link>
+      </section>
     </section>
   )
 }
