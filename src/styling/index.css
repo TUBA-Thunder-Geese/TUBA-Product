@@ -1,0 +1,382 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px 0px 0px 0px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    color: #e3e3e3;
+    min-height: 100vh;
+    min-width: 100vh;
+}
+
+.main-background {
+    background-color: rgba(2, 0, 36, 1);
+    /* background-color: pink; */
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Navigation Bar */
+
+.nav-wrapper {
+    background: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, #1e2d67 60%);
+    /* background-color: green; */
+}
+
+.nav-content {
+    padding-top: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 2%;
+    display: grid;
+    grid-template-columns: [left] 50% [center] 50% [right];
+}
+
+.custom-space > li:not(:last-child) {
+    margin-right: 10%; 
+  }
+
+.logo-img {
+    height: 60px;
+    width: 60px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.tuba-title {
+    font-family: "Ojuju", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 32px;
+    letter-spacing: 1.5px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.nav-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.button-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-style {
+    display: inline-block;
+    border: 1px solid #ffffff;; /* Adjust the color and border width as needed */
+    border-radius: 0.25rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    /* width: 180px; */
+    text-align: center;
+    color: #ffffff;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.button-style:hover {
+    background-color: rgb(91, 143, 185); /* Replace with actual color code */
+}
+
+.top-nav {
+    width: 100px;
+}
+
+.side-nav {
+    width: 180px;
+}
+
+
+
+/* Component Styling */
+
+.title-main-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 30px 30px 30px;
+    height: 70vh;
+    background-image: url("../images/TubaLogo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.title-main {
+    font-family: "Ojuju", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 40px;
+    letter-spacing: 1.5px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.title-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 30px 30px 30px;
+}
+
+.title {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    font-weight: 800;
+    font-size: 30px;
+    letter-spacing: 1.5px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.subTitle-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+}
+
+.subTitle-text {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    font-weight: 700;
+    font-size: 25px;
+    color:rgb(91, 143, 185);
+    letter-spacing: 1.5px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.text-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 30px 30px 30px;
+}
+
+.text {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.text-small {
+    font-size: 16px;
+}
+
+
+.img-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px 30px 30px;
+}
+
+/* Home Section */
+
+.home-wrapper {
+    background-color: rgba(2, 0, 36, 1);
+}
+
+.logo-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.devTeam-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.devTeam-img-container {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-auto-rows: minmax(400px, auto);
+    align-items: start;
+    padding: 30px 30px 0px 200px;
+    margin: 0px;
+}
+
+.devTeam-img {
+    height: 200px;
+    width: 200px;
+}
+
+.devTeam-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px 0px 0px;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+
+/* Product Section */
+
+.download-wrapper {
+    width: 100%;
+    min-width: 100%;
+}
+
+.download-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: "Ojuju", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 100px;
+    letter-spacing: 1.5px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    /* background-color: pink; */
+}
+
+.options-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-width: 100%;
+    /* padding: 100px; */
+}
+
+.npm-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* background-color: pink; */
+    padding: 30px 30px 30px 30px;
+}
+
+/* Docs Section */
+
+.docs-wrapper {
+    background: #1e2d67;
+    border-top: 20px solid rgba(2, 0, 36, 1);
+    height: 100vh;
+    width: 100%;
+}
+
+.docs-nav {
+    background: #1e2d67;
+    padding-top: 10%;
+}
+
+.docs-container {
+    background: #e3e3e3;
+    color: black;
+    padding: 30px;
+}
+
+.docComp-title-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    font-weight: 800;
+    font-size: 40px;
+    letter-spacing: 1.5px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    border-bottom: 6px solid black; /* Solid black line */
+    padding-bottom: 20px;
+    border-radius: 3px;
+}
+
+.doc-subTitle-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 30px 30px 30px;
+}
+
+.doc-subTitle-text {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    color: rgba(2, 0, 36, 1);
+    /* text-shadow: 
+        -1px -1px 0 rgb(91, 143, 185),  
+         1px -1px 0 rgb(91, 143, 185),
+        -1px  1px 0 rgb(91, 143, 185),
+         1px  1px 0 rgb(91, 143, 185); */
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
