@@ -129,6 +129,10 @@ body {
     justify-content: center;
     align-items: center;
     padding: 50px 30px 30px 30px;
+    height: 70vh;
+    background-image: url("../images/TubaLogo.png");
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .title-main {
@@ -151,10 +155,12 @@ body {
 }
 
 .title {
-    font-family: "Ojuju", sans-serif;
+    font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 800;
     font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    font-weight: 800;
     font-size: 30px;
     letter-spacing: 1.5px;
     margin: 0px 0px 0px 0px;
@@ -170,10 +176,12 @@ body {
 }
 
 .subTitle-text {
-    font-family: "Ojuju", sans-serif;
+    font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 700;
     font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    font-weight: 700;
     font-size: 25px;
     color:rgb(91, 143, 185);
     letter-spacing: 1.5px;
@@ -218,6 +226,14 @@ body {
 .home-wrapper {
     background-color: rgba(2, 0, 36, 1);
 }
+
+.logo-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .devTeam-section {
     display: flex;
@@ -318,3 +334,49 @@ body {
     padding: 30px;
 }
 
+.docComp-title-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    font-weight: 800;
+    font-size: 40px;
+    letter-spacing: 1.5px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    border-bottom: 6px solid black; /* Solid black line */
+    padding-bottom: 20px;
+    border-radius: 3px;
+}
+
+.doc-subTitle-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 30px 30px 30px;
+}
+
+.doc-subTitle-text {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    color: rgba(2, 0, 36, 1);
+    /* text-shadow: 
+        -1px -1px 0 rgb(91, 143, 185),  
+         1px -1px 0 rgb(91, 143, 185),
+        -1px  1px 0 rgb(91, 143, 185),
+         1px  1px 0 rgb(91, 143, 185); */
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}

@@ -1,11 +1,12 @@
 import React from "react";
 
-export default function PrometheusConfig() {
+export default function DocDatabase() {
   return (
     <section className="docComp-wrapper">
       <div className="docComp-title-wrapper">
-        <h1 className="prom-title doc-title">Prometheus Configuration</h1>
+        <h1 className="database-title doc-title">Database Instantiation</h1>
       </div>
     </section>
   )
 }
+

@@ -10,6 +10,17 @@ export default function HomeOverview() {
         <section className="title-main-section">
           <h1 className="title-main">Error Tracing with TUBA</h1>
         </section>
+        <section className='logo-section'>
+          <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" />
+          <img src="https://img.shields.io/badge/redux-764abc.svg?style=for-the-badge&logo=redux&logoColor=white" />
+          <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" />
+          <img src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB" />
+        </section>
+        <section className='logo-section'>
+          <img src="https://img.shields.io/badge/docker-2153a3.svg?style=for-the-badge&logo=docker&logoColor=white" />
+          <img src="https://img.shields.io/badge/prometheus-e6522c?style=for-the-badge&logo=prometheus&logoColor=white" />
+          <img src="https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white" />
+        </section>
       {<TextContain text={"Trace and log runtime errors through a microservices application"}/>}
       {<SubTitleContain text={"Features"}/>}
       {<TextContain text={"TUBA is an error parsing package for Express.js and Docker image that work together, allowing you to quickly review and interpret error data in each service over a given range of time."}/>}
