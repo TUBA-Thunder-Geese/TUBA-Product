@@ -10,11 +10,11 @@ export default function Docs() {
   return (
     <div className="docs-wrapper grid grid-cols-[300px_auto]">
       <div className="docs-nav flex justify-center">
-        <ul className="docs-nav-links ">
-          <li className="mb-3"><Link to="getStarted" className="button-style side-nav">Getting Started</Link></li>
-          <li className="mb-3"><Link to="dockerConfig" className="button-style side-nav">Docker Config</Link></li>
-          <li className="mb-3"><Link to="promConfig" className="button-style side-nav">Prometheus Config</Link></li>
-          <li className="mb-3"><Link to="databaseConfig" className="button-style side-nav">Database Instantiation</Link></li>
+        <ul className="docs-nav-link-contain">
+          <li className="docs-nav-links"><Link to="getStarted" className="button-style side-nav">Getting Started</Link></li>
+          <li className="docs-nav-links"><Link to="promConfig" className="button-style side-nav">Prometheus Config</Link></li>
+          <li className="docs-nav-links"><Link to="dockerConfig" className="button-style side-nav">Docker Config</Link></li>
+          <li className="docs-nav-links"><Link to="databaseConfig" className="button-style side-nav">Database Config</Link></li>
         </ul>
       </div>
       <div className="docs-container">

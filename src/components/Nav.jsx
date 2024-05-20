@@ -20,10 +20,10 @@ export default function Nav() {
         </div>
         <div className="nav-buttons">
           <ul className="button-content">
-            <li className='mr-3'>
+            <li className='nav-button-links'>
               <Link to="/download" className="button-style top-nav">Product</Link>
             </li>
-            <li>
+            <li className='nav-button-links'>
               <Link to="/docs" className="button-style top-nav">Docs</Link>
             </li>
           </ul>
