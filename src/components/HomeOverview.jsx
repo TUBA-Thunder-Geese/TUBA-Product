@@ -8,7 +8,9 @@ export default function HomeOverview() {
   return (
     <section className='home-overview-section'>
         <section className="title-main-section">
-          <h1 className="title-main">Error Tracing with TUBA</h1>
+          <div className='title-main-contain'>
+            <h1 className="title-main">Error Tracing with TUBA</h1>
+          </div>
         </section>
         <section className='logo-section'>
           <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" />

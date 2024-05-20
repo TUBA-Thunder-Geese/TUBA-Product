@@ -14,7 +14,7 @@ export default function Docs() {
           <li className="docs-nav-links"><Link to="getStarted" className="button-style side-nav">Getting Started</Link></li>
           <li className="docs-nav-links"><Link to="promConfig" className="button-style side-nav">Prometheus Config</Link></li>
           <li className="docs-nav-links"><Link to="dockerConfig" className="button-style side-nav">Docker Config</Link></li>
-          <li className="docs-nav-links"><Link to="databaseConfig" className="button-style side-nav">Database Instantiation</Link></li>
+          <li className="docs-nav-links"><Link to="databaseConfig" className="button-style side-nav">Database Config</Link></li>
         </ul>
       </div>
       <div className="docs-container">

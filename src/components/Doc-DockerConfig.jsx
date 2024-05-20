@@ -55,7 +55,7 @@ export default function DockerConfig() {
       </section>
       <section className="doc-content-nav-wrapper">
         <h3 className="doc-content-nav-title">Continue to Database Instantiation</h3>
-       <Link to="/docs/databaseConfig" className="button-style side-nav doc-content-nav">Database Instantiation</Link>
+       <Link to="/docs/databaseConfig" className="button-style side-nav doc-content-nav">Database Config</Link>
       </section>
     </section>
   )

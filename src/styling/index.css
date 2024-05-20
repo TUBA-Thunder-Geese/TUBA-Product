@@ -55,8 +55,10 @@ body {
   }
 
 .logo-img {
-    height: 60px;
-    width: 60px;
+    height: 100px;
+    width: 100px;
+    border: 1px solid #ffffff;; /* Adjust the color and border width as needed */
+    border-radius: 0.25rem;
 }
 
 .logo {
@@ -67,13 +69,17 @@ body {
     gap: 10px;
 }
 
+.logo-img-link {
+    padding: 0px 130px 0px 50px;
+}
+
 
 .tuba-title {
     font-family: "Ojuju", sans-serif;
     font-optical-sizing: auto;
     font-weight: 800;
     font-style: normal;
-    font-size: 32px;
+    font-size: 60px;
     letter-spacing: 1.5px;
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
@@ -86,11 +92,16 @@ body {
     align-items: center;
 }
 
+.nav-button-links {
+    padding: 0px 0px 0px 50px;
+}
+
 .button-content {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    padding: 0px 40px 0px 10px;
 }
 
 .button-style {
@@ -101,6 +112,8 @@ body {
     padding-bottom: 0.25rem;
     padding-left: 0.75rem;
     padding-right: 0.75rem;
+    font-size: 18px;
+    font-weight: 600;
     /* width: 180px; */
     text-align: center;
     color: #ffffff;
@@ -119,16 +132,27 @@ body {
 
 /* Component Styling */
 
+.home-overview-section {
+    padding: 60px 30px 0px 30px;
+}
+
 .title-main-section {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 50px 30px 30px 30px;
-    height: 70vh;
+    height: 500px;
     background-image: url("../images/TubaLogo.png");
     background-position: center;
     background-repeat: no-repeat;
+    background-size: 500px 500px;
+    /* opacity: 0.5; */
+}
+
+
+.title-main-contain {
+    padding: 50px 30px 30px 30px;
+    height: 50%;
 }
 
 .title-main {
@@ -136,10 +160,12 @@ body {
     font-optical-sizing: auto;
     font-weight: 800;
     font-style: normal;
-    font-size: 40px;
+    font-size: 80px;
     letter-spacing: 1.5px;
+    background-color: rgba(2, 0, 36, 0.8);
     margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
+    padding: 0px 20px 0px 20px;
+    border-radius: 30px;
 }
 
 .title-section {
@@ -406,6 +432,7 @@ body {
     background-color: #1e2d67;
     margin-left: 10%;
     font-size: 18px;
+    font-weight: 550;
     width: 220px;
 }
 
