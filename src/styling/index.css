@@ -386,6 +386,48 @@ body {
     font-size: 18px;
 }
 
+.codeSnip-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 15%;
+}
+
+.codeSnip-contain {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    justify-content: space-between;
+    background-color: #53596f;
+    color: #e3e3e3;
+    padding: 1rem;
+    border-radius: 15px;
+}
+
+.row-btn {
+    display: flex;
+    align-items: flex-start; /* Align children to opposite ends */
+}
+
+.row-snip {
+    display: flex;
+    align-items: flex-end;
+}
+
+/* .copy-btn, .code-snip {
+    
+} */
+
+.copy-btn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.code-snip {
+    display: flex;
+    justify-content: flex-start;
+} 
+
 .prom-hyperlink {
     color: rgb(91, 143, 185);
 }
