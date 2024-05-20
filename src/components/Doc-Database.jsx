@@ -4,6 +4,10 @@ import DocSubTitleContain from "./Doc-SubTitleContian.jsx";
 import DocTextBlurb from "./Doc-TextBlurb.jsx";
 import CodeSnippet from "./CodeSnippet.jsx";
 
+import serviceConnect from '../images/Services-connections.png'
+import connectTable from '../images/connect-table.png';
+import srvTable from '../images/srv-table.png';
+
 export default function DocDatabase() {
   return (
     <section className="docComp-wrapper">
@@ -72,19 +76,19 @@ export default function DocDatabase() {
       <section className="doc-section">
         {<DocTextBlurb text={"For example, if your microservices were connected like in this image:"}/>}
         <div className="doc-img-contain">
-          <img className="doc-img" src='../images/Services-connections.png' alt="image of example microservice connections"></img>
+          <img className="doc-img" src={serviceConnect} alt="image of example microservice connections"></img>
         </div>
       </section>
       <section className="doc-section">
         {<DocTextBlurb text={"then the relevant columns of your services table would look something like this:"}/>}
         <div className="doc-img-contain">
-          <img className="doc-img" src='../images/srv-table.png' alt="image of example microservice connections"></img>
+          <img className="doc-img" src={srvTable} alt="image of example microservice connections"></img>
         </div>
       </section>
       <section className="doc-section">
         {<DocTextBlurb text={"and the services_connections table would look like this:"}/>}
         <div className="doc-img-contain">
-          <img className="doc-img" src='../images/connect-table.png' alt="image of example microservice connections"></img>
+          <img className="doc-img" src={connectTable} alt="image of example microservice connections"></img>
         </div>
       </section>
     </section>

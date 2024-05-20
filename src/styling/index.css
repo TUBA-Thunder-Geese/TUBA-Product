@@ -334,6 +334,10 @@ body {
     padding: 30px;
 }
 
+.doc-section {
+    padding: 15px;
+}
+
 .docComp-title-wrapper {
     display: flex;
     flex-direction: row;
@@ -345,7 +349,7 @@ body {
     font-variation-settings:
         "slnt" 0;
     font-weight: 800;
-    font-size: 40px;
+    font-size: 45px;
     letter-spacing: 1.5px;
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
@@ -357,7 +361,7 @@ body {
 .doc-subTitle-container {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     padding: 30px 30px 30px 30px;
 }
@@ -375,7 +379,7 @@ body {
         -1px  1px 0 rgb(91, 143, 185),
          1px  1px 0 rgb(91, 143, 185); */
     font-weight: 600;
-    font-size: 20px;
+    font-size: 25px;
     letter-spacing: 1.5px;
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
@@ -383,7 +387,14 @@ body {
 
 .doc-content-nav-title {
     font-weight: 600;
-    font-size: 18px;
+    font-size: 20px;
+    padding: 0px 0px 15px 0px;
+    margin-left: 5%;
+}
+
+.doc-content-nav {
+    background-color: #1e2d67;
+    margin-left: 10%;
 }
 
 .codeSnip-section {
@@ -391,7 +402,8 @@ body {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    margin-left: 15%;
+    margin-left: 10%;
+    padding: 10px;
 }
 
 .codeSnip-contain {
@@ -414,10 +426,6 @@ body {
     align-items: flex-end;
 }
 
-/* .copy-btn, .code-snip {
-    
-} */
-
 .copy-btn {
     display: flex;
     justify-content: flex-end;
@@ -427,6 +435,10 @@ body {
     display: flex;
     justify-content: flex-start;
 } 
+
+.doc-textb-container {
+    padding: 20px;
+}
 
 .prom-hyperlink {
     color: rgb(91, 143, 185);

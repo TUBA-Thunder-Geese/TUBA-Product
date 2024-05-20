@@ -40,9 +40,9 @@ export default function GetStarted() {
       <section className="doc-section">
         {<DocTextBlurb text={"Tuba now has access to your database. The database schema should still be unconfigured at this point. This can be done via a simple Postman request that will be covered in the Docker Image section of the docs."} />}
       </section>
-      <section className="doc-content-nav-wrapper">
+      <section className="doc-section doc-content-nav-wrapper">
         <h3 className="doc-content-nav-title">Continue to Prometheus Configuration</h3>
-       <Link to="/docs/promConfig" className="button-style side-nav doc-content-nav">Prometheus Config</Link>
+        <Link to="/docs/promConfig" className="button-style side-nav doc-content-nav">Prometheus Config</Link>
       </section>
     </section>
   )
