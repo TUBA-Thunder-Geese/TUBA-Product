@@ -8,7 +8,7 @@ export default function ImgContain (src, alt) {
   return (
     <section className="img-section">
       <div className="img-container">
-        <img className="img-file" src={src.src} alt={src.alt}></img>
+        <img className={`img-file ${src.className}`} src={src.src} alt={src.alt}></img>
       </div>
     </section>
   )
