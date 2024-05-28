@@ -57,7 +57,7 @@ body {
 .logo-img {
     height: 100px;
     width: 100px;
-    border: 1px solid #ffffff;; /* Adjust the color and border width as needed */
+    border: 2px solid #ffffff;; /* Adjust the color and border width as needed */
     border-radius: 0.25rem;
 }
 
@@ -70,7 +70,7 @@ body {
 }
 
 .logo-img-link {
-    padding: 0px 130px 0px 50px;
+    padding: 0px 50px 0px 50px;
 }
 
 
@@ -106,8 +106,8 @@ body {
 
 .button-style {
     display: inline-block;
-    border: 1px solid #ffffff;; /* Adjust the color and border width as needed */
-    border-radius: 0.25rem;
+    border: 2px solid #ffffff;; /* Adjust the color and border width as needed */
+    border-radius: 0.30rem;
     padding-top: 0.25rem;
     padding-bottom: 0.25rem;
     padding-left: 0.75rem;
@@ -130,7 +130,7 @@ body {
 
 
 
-/* Component Styling */
+/* _______ Component Styling ______ */
 
 .home-overview-section {
     padding: 60px 30px 0px 30px;
@@ -234,7 +234,6 @@ body {
     font-size: 16px;
 }
 
-
 .img-section {
     display: flex;
     flex-direction: row;
@@ -243,7 +242,12 @@ body {
     padding: 15px 30px 30px 30px;
 }
 
-/* Home Section */
+.img-file-small {
+    width: 100px;
+    height: 100px;
+}
+
+/* _______ Home Section ______ */
 
 .home-wrapper {
     background-color: rgba(2, 0, 36, 1);
@@ -294,7 +298,7 @@ body {
     padding: 100px;
 }
 
-/* Product Section */
+/* ______Product Section ______ */
 
 .download-wrapper {
     width: 100%;
@@ -313,30 +317,56 @@ body {
     font-size: 100px;
     letter-spacing: 1.5px;
     margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
+    padding: 100px 0px 100px 0px;
     /* background-color: pink; */
 }
 
 .options-grid {
     display: grid;
     grid-template-columns: repeat(2, 50%);
-    align-items: center;
     justify-content: center;
     width: 100%;
     min-width: 100%;
-    /* padding: 100px; */
 }
 
-.npm-section {
+.options-inner {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
     /* background-color: pink; */
     padding: 30px 30px 30px 30px;
 }
 
-/* Docs Section */
+/* arguments for ImgContain component */
+.img-file-npm {
+    width: 400px;
+}
+
+.img-file-dock {
+    width: 500px;
+}
+/*  */
+
+.prod-links {
+    width: 200px;
+    background-color: pink;
+}
+
+.prod-docsLink-contain {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 30px 30px 30px;
+}
+
+.prod-docsLink {
+    width: 250px;
+    padding: 10px 10px 10px 10px;
+    font-size: 30px;
+}
+/* _____ Docs Section _____ */
 
 .docs-wrapper {
     background: #1e2d67;
