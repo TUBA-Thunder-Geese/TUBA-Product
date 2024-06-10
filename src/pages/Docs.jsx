@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes, Route, Link } from "react-router-dom";
+import {Routes, Route, Link} from "react-router-dom";
 
 import GetStarted from "../components/Doc-GetStarted.jsx";
 import DockerConfig from "../components/Doc-DockerConfig.jsx";
@@ -19,10 +19,11 @@ export default function Docs() {
       </div>
       <div className="docs-container">
         <Routes>
-          <Route path="getStarted" element={<GetStarted />} />
-          <Route path="dockerConfig" element={<DockerConfig />} />
-          <Route path="promConfig" element={<PrometheusConfig />} />
-          <Route path="databaseConfig" element={<DocDatabase />} />
+          <Route index element={<GetStarted/>} />
+          <Route path="getStarted" element={<GetStarted/>} />
+          <Route path="dockerConfig" element={<DockerConfig/>} />
+          <Route path="promConfig" element={<PrometheusConfig/>} />
+          <Route path="databaseConfig" element={<DocDatabase/>} />
         </Routes>
       </div>
     </div>

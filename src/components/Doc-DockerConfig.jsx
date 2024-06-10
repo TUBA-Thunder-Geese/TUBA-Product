@@ -19,11 +19,11 @@ export default function DockerConfig() {
       </section>
       <section className="doc-section">
         {<DocTextBlurb text={"The TUBA Docker image can be downloaded with Docker Desktop or from Docker Hub with this terminal command:"} />}
-        {<CodeSnippet code={"docker pull thundergeese/tuba-tracing:tracing"}/>}
+        {<CodeSnippet code={"docker pull tubatracing/tuba-tracing:latest"}/>}
       </section>
       <section className="doc-section">
         {<DocTextBlurb text={"If you are running Tuba as a standalone container, you’ll need to pass in the link to your postgres database when you start up the image container:"} />}
-        {<CodeSnippet code={"docker run -p [Your Port]:42069 -e TUBA_PG_URI=[Your URI] thundergeese/tuba-tracing:tracing"} />}
+        {<CodeSnippet code={"docker run -p [Your Port]:42069 -e TUBA_PG_URI=[Your URI] tubatracing/tuba-tracing:latest"} />}
       </section>
       <section className="doc-section">
         {<DocTextBlurb text={"Navigate to localhost:[Your Port] to use TUBA"} />}
@@ -38,7 +38,7 @@ export default function DockerConfig() {
           version: "3"
           services:
           tuba:
-            image: thundergeese/tuba-tracing:tracing
+            image: tubatracing/tuba-tracing:latest
             env_file:
               - .env
             ports:
