@@ -24,9 +24,10 @@ export default function HomeOverview() {
           <img src="https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white" />
         </section>
       {<TextContain text={"Trace and log runtime errors through a microservices application"}/>}
+      <div className='line-break'></div>
       {<SubTitleContain text={"Features"}/>}
       {<TextContain text={"TUBA is an error parsing package for Express.js and Docker image that work together, allowing you to quickly review and interpret error data in each service over a given range of time."}/>}
-      {<SubTitleContain text={"Own Your Data"} />}
+      {<SubTitleContain text={"Own Your Data"}/>}
       {<TextContain text={"Have full control of mission-critical historical runtime data in a postgres database you manage."} />}
       {<SubTitleContain text={"Don't Get Lost In The Cloud"} />}
       {<TextContain text={"Use the TUBA Interface to visualize your error data in chronological order, highlight any cascades or closely related errors on your Timeline. Review your Heatmap to see errors by service, or search and filter data by keywords."}/>}

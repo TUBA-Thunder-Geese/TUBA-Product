@@ -3,7 +3,7 @@ import React from "react";
 
 export default function ImgContain (src, alt) {
 
-  console.log('Src prop: ', src); 
+  // console.log('Src prop: ', src); 
 
   return (
     <section className="img-section">

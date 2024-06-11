@@ -19,19 +19,21 @@ export default function Home() {
   return (
     <div className="home-wrapper">
       {<HomeOverview />}
-      {<TitleContain text={"Dashboard with pinned errors"}/>}
-      {<ImgContain src={dashboardSS} alt={"Dashboard image"} />}
-      {<TitleContain text={"Heat Map Display"}/>}
-      {<ImgContain src={HeatMapSS} alt={"Heat Map image"} />}
-      {<TitleContain text={"Timeline Display"} />}
-      {<ImgContain src={TimelineSS} alt={"Timeline image"} />}
-      {<TitleContain text={"History Display"} />}
-      {<ImgContain src={HistorySS} alt={"History image"} />}
-      {<TitleContain text={"Download Pinned Errors to a CSV"}/>}
-      {<TextContain text={"All your currently viewed errors compiled to a csv file for easy shareability and record keeping"}/>}
-      {<ImgContain src={CSVDemo} alt={"TUBA CSV demo image"} />}
-      {<DevTeam />}
-      {<Footer />}
+      <div className='home-visual-container'>
+        {<TitleContain text={"Dashboard with pinned errors"}/>}
+        {<ImgContain src={dashboardSS} alt={"Dashboard image"} className={"img-file-visual"}/>}
+        {<TitleContain text={"Heat Map Display"}/>}
+        {<ImgContain src={HeatMapSS} alt={"Heat Map image"} className={"img-file-visual"}/>}
+        {<TitleContain text={"Timeline Display"} />}
+        {<ImgContain src={TimelineSS} alt={"Timeline image"} className={"img-file-visual"}/>}
+        {<TitleContain text={"History Display"} />}
+        {<ImgContain src={HistorySS} alt={"History image"} className={"img-file-visual"}/>}
+        {<TitleContain text={"Download Pinned Errors to a CSV"}/>}
+        {<TextContain text={"All your currently viewed errors compiled to a csv file for easy shareability and record keeping"}/>}
+        {<ImgContain src={CSVDemo} alt={"TUBA CSV demo image"} className={"img-file-visual"}/>}
+      </div>
+        {<DevTeam />}
+        {<Footer />}
     </div>
   )
 }
