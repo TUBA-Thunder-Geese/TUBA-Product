@@ -57,8 +57,8 @@ body {
 .logo-img {
     height: 100px;
     width: 100px;
-    border: 2px solid #ffffff; /* Adjust the color and border width as needed */
-    border-radius: 0.25rem;
+    /* border: 2px solid #ffffff;  */
+    /* border-radius: 0.25rem; */
 }
 
 .logo {
