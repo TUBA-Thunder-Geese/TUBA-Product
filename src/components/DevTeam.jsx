@@ -3,6 +3,8 @@ import React from "react";
 import TitleContain from "./TitleContain.jsx";
 
 import tubaDev from '../images/tubadev-placeholder.jpg';
+import Myles from '../images/Myles-profile.jpg';
+import Matt from '../images/Matt-profile.jpeg';
 
 export default function DevTeam() {
     return (
@@ -10,13 +12,13 @@ export default function DevTeam() {
         {<TitleContain text={"The TUBA Dev Team"}/>}
         <div className="devTeam-img-container">
           <div className="devTeam-img">
-            <img src={tubaDev} alt={"Image of Matthew Allen"} />
+            <img src={Matt} alt={"Image of Matthew Allen"} />
             <div className="devTeam-text text">
               <p>Matthew Allen</p>
             </div>
           </div>
           <div className="devTeam-img">
-            <img src={tubaDev} alt={"Image of Myles Austin"} />
+            <img src={Myles} alt={"Image of Myles Austin"} />
               <div className="devTeam-text text">
                 <p>Myles Austin</p>
               </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router";
 
-import tubaLogo from '../images/tubaLogo-blackBG-lightTeal.png'
+import tubaLogo from '../images/tuba-blackBG-lightTeal.png'
 import { Link } from "react-router-dom";
 
 export default function Nav() {
