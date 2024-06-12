@@ -57,8 +57,8 @@ body {
 .logo-img {
     height: 100px;
     width: 100px;
-    border: 2px solid #000000; 
-    border-radius: 0.25rem;
+    /* border: 2px solid #000000;  */
+    /* border-radius: 0.25rem; */
 }
 
 .logo {
@@ -287,6 +287,8 @@ body {
     align-items: center;
     margin: 80px 0px 80px 0px;
 }
+
+
 
 
 .devTeam-section {
