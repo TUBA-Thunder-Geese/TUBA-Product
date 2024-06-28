@@ -146,7 +146,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: 500px 500px;
-    /* opacity: 0.5; */
+    margin-bottom: 2rem;
 }
 
 
@@ -174,6 +174,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 30px 30px 30px 30px;
+    margin-top: 4rem;
 }
 
 .title {
@@ -251,6 +252,7 @@ body {
 
 .home-wrapper {
     background-color: rgba(2, 0, 36, 1);
+    width: 80%;
 }
 
 .logo-section {
@@ -273,7 +275,8 @@ body {
     grid-template-columns: repeat(4, 25%);
     grid-auto-rows: minmax(400px, auto);
     align-items: start;
-    padding: 30px 30px 0px 200px;
+    justify-content: center;
+    padding: 30px 30px 0px 30px;
     margin: 0px;
 }
 
@@ -291,10 +294,10 @@ body {
 }
 
 .footer-container {
-    display: grid;
-    grid-template-columns: repeat(2, 50%);
+    display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
     padding: 100px;
 }
 
@@ -342,13 +345,30 @@ body {
     padding: 30px 30px 30px 30px;
 }
 
+.options-docker, .options-npm {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 45rem;
+}
+
+.prod-link {
+    display: block;
+    height: 350px;
+}
+
 /* arguments for ImgContain component */
 .img-file-npm {
-    width: 400px;
+    height: 350px;
 }
 
 .img-file-dock {
-    width: 500px;
+    height: 350px;
+}
+
+.download-text-wrapper {
+    margin-top: 2rem;
 }
 
 /* product links */

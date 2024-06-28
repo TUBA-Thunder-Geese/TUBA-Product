@@ -21,7 +21,7 @@ export default function Download() {
               <a href="https://www.npmjs.com/package/tuba-tracing" className="prod-link" target="_blank" rel="noopener noreferrer">
                 <ImgContain src={npmLogo} alt={"image of NPM logo with link to website"} className="img-file-npm"/>
               </a>
-              <TextContain text={"Public NPM error parsing package for Express.js and Docker image that work together, allowing you to quickly review and interpret error data in each service over a given range of time."}/>
+              <TextContain text={"Public NPM error parsing package for Express.js and Docker image that work together, allowing you to quickly review and interpret error data in each service over a given range of time."}sectionClasses={"download-text-wrapper"}/>
             </div>
           </section>
           <section className="options-inner">
@@ -30,7 +30,7 @@ export default function Download() {
               <a href="https://hub.docker.com/r/tubatracing/tuba-tracing" className="prod-link" target="_blank" rel="noopener noreferrer">
                 <ImgContain src={dockerLogo} alt={"image of dockerHub logo with link to website"} className={"img-file-dock"}/>
               </a>
-              <TextContain text={"Node based image that lets you visualize errors captured with the tuba-tracing npm package."}/>
+              <TextContain text={"Node based image that lets you visualize errors captured with the tuba-tracing npm package."}sectionClasses={"download-text-wrapper"}/>
             </div>
           </section>
         </div>

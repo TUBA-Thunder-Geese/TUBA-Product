@@ -4,8 +4,7 @@ export default function Footer() {
     return (
       <section className="footer-section">
         <div className="footer-container text text-small">
-            <p>Footer</p>
-            <p>More TUBA info</p>
+          <p>Made with ♥ in LA, Detroit, Philly, and Portland</p>
         </div>
       </section>
     )
